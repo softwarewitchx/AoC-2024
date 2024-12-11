@@ -41,4 +41,4 @@ with open('day2/io.txt', 'r') as io:
                 break
 
     safe_reports = len(reports) - unsafe_reports
-    print(safe_reports, unsafe_reports)
+    print(safe_reports)

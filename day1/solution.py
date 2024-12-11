@@ -1,12 +1,12 @@
 total_distance = 0
 left_values, right_values = [], []
 
-with open('day1/input.txt', 'r') as io:
+with open('day1/io.txt', 'r') as io:
 
     text = io.read().strip().split('\n')
 
     for row in text:
-        pairs = row.split('   ') # [12823, 12823]
+        pairs = row.split('   ')
         left_values.append(pairs[0])
         right_values.append(pairs[1])
 
