@@ -19,7 +19,6 @@ with open('day1/input.txt', 'r') as io:
 
     for i in range(left_len):
         left_value, right_value = int(left_values[i]), int(right_values[i])
-        distance = abs(left_value - right_value)
-        total_distance += distance
+        total_distance += abs(left_value - right_value)
 
     print(total_distance)
